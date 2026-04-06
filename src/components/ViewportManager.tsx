@@ -36,7 +36,7 @@ export default function ViewportManager() {
             </div>
 
             {/* View Mode Toggle Controls */}
-            <div className="fixed top-6 right-[400px] z-50 pointer-events-auto flex items-center gap-1 bg-white/30 backdrop-blur-md rounded-lg p-1 border border-slate-200/40 shadow-sm">
+            <div className="fixed top-6 right-[400px] z-[100] pointer-events-auto flex items-center gap-1 bg-white/30 backdrop-blur-md rounded-lg p-1 border border-slate-200/40 shadow-sm">
                 <button
                     onClick={() => setViewMode('TPP')}
                     className={`flex items-center gap-2 px-3 py-1.5 rounded-md text-[11px] font-bold tracking-wide transition-colors ${
