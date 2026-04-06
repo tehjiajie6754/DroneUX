@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { MapPin, PlaneTakeoff, Target, Clock } from "lucide-react";
-import Link from "next/link";
 import HomeHeroCanvas from "@/components/HomeHeroCanvas";
 
 export default function MissionSetup() {
