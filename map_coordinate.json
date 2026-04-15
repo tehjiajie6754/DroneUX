@@ -1,0 +1,682 @@
+{
+  "world_file": "world/disaster_zone_newest.sdf",
+  "near_threshold_m": 35.0,
+  "building_models": [
+    {
+      "name": "bldg_office_1",
+      "coordinates": [
+        102.79,
+        -140.3,
+        0.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "collapsed_industrial",
+      "coordinates": [
+        0.0,
+        0.0,
+        0.5
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "collapsed_house",
+      "coordinates": [
+        0.0,
+        40.0,
+        3.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "collapsed_police_station",
+      "coordinates": [
+        40.0,
+        -20.0,
+        3.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "house",
+      "coordinates": [
+        20.0,
+        20.000000000000004,
+        2.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "indian_house",
+      "coordinates": [
+        30.0,
+        0.0,
+        3.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "collapsed_fire_station",
+      "coordinates": [
+        0.0,
+        -20.0,
+        3.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "collapsed_industrial_1",
+      "coordinates": [
+        59.2945,
+        16.8575,
+        0.5
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "collapsed_industrial_2",
+      "coordinates": [
+        77.2004,
+        -18.6678,
+        0.5
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "collapsed_industrial_3",
+      "coordinates": [
+        34.3529,
+        -72.4332,
+        0.5
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "collapsed_police_station_1",
+      "coordinates": [
+        112.464,
+        30.7838,
+        3.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "indian_house_1",
+      "coordinates": [
+        10.8705,
+        -55.523,
+        3.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "collapsed_fire_station_1",
+      "coordinates": [
+        124.61,
+        -43.0855,
+        3.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "collapsed_police_station_2",
+      "coordinates": [
+        32.484,
+        54.9242,
+        3.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "house_1",
+      "coordinates": [
+        74.1548,
+        58.852,
+        2.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "house_2",
+      "coordinates": [
+        67.3968,
+        51.7728,
+        2.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "house_3",
+      "coordinates": [
+        83.6513,
+        51.0939,
+        2.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "house_4",
+      "coordinates": [
+        60.2317,
+        58.699,
+        2.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "house_5",
+      "coordinates": [
+        90.6909,
+        58.6079,
+        2.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "house_6",
+      "coordinates": [
+        102.057,
+        50.9994,
+        2.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "collapsed_police_station_3",
+      "coordinates": [
+        94.02,
+        -60.0,
+        3.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "indian_house_2",
+      "coordinates": [
+        101.753,
+        6.86046,
+        3.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "indian_house_3",
+      "coordinates": [
+        111.169,
+        7.94699,
+        3.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "indian_house_4",
+      "coordinates": [
+        120.137,
+        7.85128,
+        3.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "collapsed_industrial_1_1",
+      "coordinates": [
+        82.03,
+        70.0,
+        0.5
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "collapsed_industrial_1_2",
+      "coordinates": [
+        120.64,
+        -11.5,
+        0.5
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "collapsed_industrial_1_3",
+      "coordinates": [
+        50.0,
+        -50.0,
+        0.5
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "collapsed_fire_station_1_1",
+      "coordinates": [
+        107.42,
+        -170.562,
+        3.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "indian_house_1_1",
+      "coordinates": [
+        93.1135,
+        7.86457,
+        3.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "collapsed_house_2",
+      "coordinates": [
+        135.0,
+        50.0,
+        3.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "collapsed_house_3",
+      "coordinates": [
+        138.697,
+        71.2761,
+        3.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "collapsed_house_4",
+      "coordinates": [
+        110.69,
+        70.0,
+        3.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "charging_center_nw",
+      "coordinates": [
+        -25.0,
+        85.0,
+        2.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "charging_center_ne",
+      "coordinates": [
+        150.0,
+        85.0,
+        2.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "charging_center_se",
+      "coordinates": [
+        150.0,
+        -90.0,
+        2.0
+      ],
+      "source": "model",
+      "uri": null
+    },
+    {
+      "name": "charging_center_sw",
+      "coordinates": [
+        -25.0,
+        -90.0,
+        2.0
+      ],
+      "source": "model",
+      "uri": null
+    }
+  ],
+  "survivor_models": [
+    {
+      "name": "survivor_model",
+      "coordinates": [
+        1.9988885554412024,
+        2.009031503148734,
+        8.819440590482392
+      ],
+      "source": "include",
+      "uri": "file:///home/user/godeye-drone/models/survivor_person"
+    },
+    {
+      "name": "survivor_model_1",
+      "coordinates": [
+        -21.507184662428344,
+        15.77734568635768,
+        0.2999999820882944
+      ],
+      "source": "include",
+      "uri": "file:///home/user/godeye-drone/models/survivor_person"
+    },
+    {
+      "name": "survivor_model_2",
+      "coordinates": [
+        -11.745462210688997,
+        -15.042459477966572,
+        0.37550927659880196
+      ],
+      "source": "include",
+      "uri": "file:///home/user/godeye-drone/models/survivor_person"
+    },
+    {
+      "name": "survivor_model_1_1",
+      "coordinates": [
+        134.6235678483859,
+        -9.31885694054837,
+        0.37550931691016265
+      ],
+      "source": "include",
+      "uri": "file:///home/user/godeye-drone/models/survivor_person"
+    },
+    {
+      "name": "survivor_model_1_2",
+      "coordinates": [
+        149.45599973869457,
+        100.8379998390909,
+        0.29999987539986894
+      ],
+      "source": "include",
+      "uri": "file:///home/user/godeye-drone/models/survivor_person"
+    },
+    {
+      "name": "survivor_model_3",
+      "coordinates": [
+        60.732398944212186,
+        18.525523743019964,
+        5.566906954822647
+      ],
+      "source": "include",
+      "uri": "file:///home/user/godeye-drone/models/survivor_person"
+    },
+    {
+      "name": "survivor_model_4",
+      "coordinates": [
+        137.42654111220844,
+        70.11287880771889,
+        7.072503846927137
+      ],
+      "source": "include",
+      "uri": "file:///home/user/godeye-drone/models/survivor_person"
+    },
+    {
+      "name": "survivor_model_5",
+      "coordinates": [
+        36.81176441326266,
+        -18.683862662805858,
+        7.356931895538658
+      ],
+      "source": "include",
+      "uri": "file:///home/user/godeye-drone/models/survivor_person"
+    },
+    {
+      "name": "survivor_model_6",
+      "coordinates": [
+        137.79521758850453,
+        -32.39809153918609,
+        0.2999999819488829
+      ],
+      "source": "include",
+      "uri": "file:///home/user/godeye-drone/models/survivor_person"
+    },
+    {
+      "name": "survivor_model_7",
+      "coordinates": [
+        127.33306198040134,
+        -42.306890322090716,
+        7.837273761458502
+      ],
+      "source": "include",
+      "uri": "file:///home/user/godeye-drone/models/survivor_person"
+    },
+    {
+      "name": "survivor_model_8",
+      "coordinates": [
+        2.586425763348188,
+        -20.351599462759864,
+        7.903072169141259
+      ],
+      "source": "include",
+      "uri": "file:///home/user/godeye-drone/models/survivor_person"
+    },
+    {
+      "name": "survivor_model_9",
+      "coordinates": [
+        77.558166216175,
+        -17.30627948765531,
+        5.781297413131659
+      ],
+      "source": "include",
+      "uri": "file:///home/user/godeye-drone/models/survivor_person"
+    }
+  ],
+  "target_buildings": [
+    {
+      "target_name": "target_building_1",
+      "building_name": "collapsed_industrial",
+      "building_coordinates": [
+        0.0,
+        0.0,
+        0.5
+      ],
+      "nearest_survivor_name": "survivor_model",
+      "nearest_survivor_coordinates": [
+        1.9988885554412024,
+        2.009031503148734,
+        8.819440590482392
+      ],
+      "distance_xy_m": 2.834
+    },
+    {
+      "target_name": "target_building_2",
+      "building_name": "collapsed_industrial",
+      "building_coordinates": [
+        0.0,
+        0.0,
+        0.5
+      ],
+      "nearest_survivor_name": "survivor_model_1",
+      "nearest_survivor_coordinates": [
+        -21.507184662428344,
+        15.77734568635768,
+        0.2999999820882944
+      ],
+      "distance_xy_m": 26.674
+    },
+    {
+      "target_name": "target_building_3",
+      "building_name": "collapsed_fire_station",
+      "building_coordinates": [
+        0.0,
+        -20.0,
+        3.0
+      ],
+      "nearest_survivor_name": "survivor_model_2",
+      "nearest_survivor_coordinates": [
+        -11.745462210688997,
+        -15.042459477966572,
+        0.37550927659880196
+      ],
+      "distance_xy_m": 12.749
+    },
+    {
+      "target_name": "target_building_4",
+      "building_name": "collapsed_industrial_1_2",
+      "building_coordinates": [
+        120.64,
+        -11.5,
+        0.5
+      ],
+      "nearest_survivor_name": "survivor_model_1_1",
+      "nearest_survivor_coordinates": [
+        134.6235678483859,
+        -9.31885694054837,
+        0.37550931691016265
+      ],
+      "distance_xy_m": 14.153
+    },
+    {
+      "target_name": "target_building_5",
+      "building_name": "collapsed_house_3",
+      "building_coordinates": [
+        138.697,
+        71.2761,
+        3.0
+      ],
+      "nearest_survivor_name": "survivor_model_1_2",
+      "nearest_survivor_coordinates": [
+        149.45599973869457,
+        100.8379998390909,
+        0.29999987539986894
+      ],
+      "distance_xy_m": 31.459
+    },
+    {
+      "target_name": "target_building_6",
+      "building_name": "collapsed_industrial_1",
+      "building_coordinates": [
+        59.2945,
+        16.8575,
+        0.5
+      ],
+      "nearest_survivor_name": "survivor_model_3",
+      "nearest_survivor_coordinates": [
+        60.732398944212186,
+        18.525523743019964,
+        5.566906954822647
+      ],
+      "distance_xy_m": 2.202
+    },
+    {
+      "target_name": "target_building_7",
+      "building_name": "collapsed_house_3",
+      "building_coordinates": [
+        138.697,
+        71.2761,
+        3.0
+      ],
+      "nearest_survivor_name": "survivor_model_4",
+      "nearest_survivor_coordinates": [
+        137.42654111220844,
+        70.11287880771889,
+        7.072503846927137
+      ],
+      "distance_xy_m": 1.723
+    },
+    {
+      "target_name": "target_building_8",
+      "building_name": "collapsed_police_station",
+      "building_coordinates": [
+        40.0,
+        -20.0,
+        3.0
+      ],
+      "nearest_survivor_name": "survivor_model_5",
+      "nearest_survivor_coordinates": [
+        36.81176441326266,
+        -18.683862662805858,
+        7.356931895538658
+      ],
+      "distance_xy_m": 3.449
+    },
+    {
+      "target_name": "target_building_9",
+      "building_name": "collapsed_fire_station_1",
+      "building_coordinates": [
+        124.61,
+        -43.0855,
+        3.0
+      ],
+      "nearest_survivor_name": "survivor_model_6",
+      "nearest_survivor_coordinates": [
+        137.79521758850453,
+        -32.39809153918609,
+        0.2999999819488829
+      ],
+      "distance_xy_m": 16.973
+    },
+    {
+      "target_name": "target_building_10",
+      "building_name": "collapsed_fire_station_1",
+      "building_coordinates": [
+        124.61,
+        -43.0855,
+        3.0
+      ],
+      "nearest_survivor_name": "survivor_model_7",
+      "nearest_survivor_coordinates": [
+        127.33306198040134,
+        -42.306890322090716,
+        7.837273761458502
+      ],
+      "distance_xy_m": 2.832
+    },
+    {
+      "target_name": "target_building_11",
+      "building_name": "collapsed_fire_station",
+      "building_coordinates": [
+        0.0,
+        -20.0,
+        3.0
+      ],
+      "nearest_survivor_name": "survivor_model_8",
+      "nearest_survivor_coordinates": [
+        2.586425763348188,
+        -20.351599462759864,
+        7.903072169141259
+      ],
+      "distance_xy_m": 2.61
+    },
+    {
+      "target_name": "target_building_12",
+      "building_name": "collapsed_industrial_2",
+      "building_coordinates": [
+        77.2004,
+        -18.6678,
+        0.5
+      ],
+      "nearest_survivor_name": "survivor_model_9",
+      "nearest_survivor_coordinates": [
+        77.558166216175,
+        -17.30627948765531,
+        5.781297413131659
+      ],
+      "distance_xy_m": 1.408
+    }
+  ]
+}

@@ -4,7 +4,7 @@ import dynamic from 'next/dynamic';
 import { useSwarmStore } from '@/store/useSwarmStore';
 import { LayoutGrid, Maximize } from 'lucide-react';
 
-const MapCanvas = dynamic(() => import('@/components/MapCanvas'), { ssr: false });
+const InteractiveMap = dynamic(() => import('@/components/InteractiveMap'), { ssr: false });
 
 export default function ViewportManager() {
     const { viewMode, setViewMode, drones } = useSwarmStore();
@@ -14,7 +14,7 @@ export default function ViewportManager() {
             {/* Viewport content */}
             <div className={`w-full h-full absolute inset-0 ${viewMode === 'FPP' ? 'pr-[380px] pb-[160px]' : ''}`}>
                 {viewMode === 'TPP' ? (
-                    <MapCanvas />
+                    <InteractiveMap />
                 ) : (
                     // In FPP mode, split into quadrants, but restrict the area to avoid sidebars covering it
                     // The wrapper already has pr-[380px] pb-[160px] to make space for the UI
@@ -23,7 +23,7 @@ export default function ViewportManager() {
                         {drones.slice(0, 4).map((drone, idx) => (
                             <div key={drone.id} className="relative w-full h-full min-h-0 border-[0.5px] border-slate-700/50 pointer-events-auto shadow-inner">
                                 <div className="absolute inset-0">
-                                    <MapCanvas focusedDroneId={drone.id} />
+                                    <InteractiveMap focusedDroneId={drone.id} />
                                 </div>
                                 <div className="absolute bottom-4 left-4 z-10 bg-slate-900/60 backdrop-blur border border-slate-700/50 rounded-lg px-3 py-1.5 flex items-center gap-2">
                                     <div className="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse shadow-[0_0_8px_rgba(59,130,246,0.8)]"></div>
